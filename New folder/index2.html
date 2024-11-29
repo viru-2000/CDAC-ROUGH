@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Assembly Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        nav a.button {
+            background-color: #007f4f;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+
+        .hero-section {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .hero-section button {
+            background-color: #ffffff;
+            color: #2575fc;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .hero-section button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .content-section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .content-section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .content-section p {
+            margin-bottom: 20px;
+            font-size: 1rem;
+            color: #555;
+            text-align: center;
+        }
+
+        .how-it-works {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .how-it-works div {
+            text-align: center;
+            flex: 1 1 300px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .how-it-works img {
+            max-width: 70px;
+            margin-bottom: 15px;
+        }
+
+        .how-it-works p {
+            font-size: 0.9rem;
+            color: #444;
+        }
+
+        .faq-section {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+        }
+
+        .faq-section h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .faq-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .faq-section ul li {
+            padding: 10px;
+            background: #fff;
+            margin: 10px auto;
+            max-width: 800px;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #2575fc;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="TaskRabbit Logo">
+            <div>
+                <a href="#">Services</a>
+                <a href="#">Sign up / Log in</a>
+                <a href="#" class="button">Become a Tasker</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <h1>Furniture Assembly Services</h1>
+        <p>Professional assembly of all types of furniture, hassle-free and efficient!</p>
+        <button>Book Now</button>
+    </section>
+
+    <section class="content-section">
+        <h2>Why Choose Us?</h2>
+        <p>From wardrobes to office desks, our skilled professionals ensure your furniture is assembled with care and precision.</p>
+        <p>Save time and effort by letting us handle your assembly needs with guaranteed satisfaction.</p>
+
+        <div class="how-it-works">
+            <div>
+                <img src="step1-icon.png" alt="Describe Task">
+                <p><strong>Step 1:</strong> Describe your task and schedule.</p>
+            </div>
+            <div>
+                <img src="step2-icon.png" alt="Choose Tasker">
+                <p><strong>Step 2:</strong> Choose a trusted professional.</p>
+            </div>
+            <div>
+                <img src="step3-icon.png" alt="Task Completion">
+                <p><strong>Step 3:</strong> Enjoy your fully assembled furniture!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <h3>Frequently Asked Questions</h3>
+        <ul>
+            <li>Can I hire someone to assemble my furniture?</li>
+            <li>What is the cost of furniture assembly?</li>
+            <li>Do I need to provide the tools?</li>
+            <li>How long does it take to assemble furniture?</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Furniture Assembly Services. Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+    </footer>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Assembly Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            border-bottom: 1px solid #eaeaea;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 120px;
+        }
+
+        .hero-section {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero-section img {
+            max-width: 300px;
+            margin: 20px 0;
+        }
+
+        .content-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .content-section img {
+            max-width: 200px;
+            margin: 20px;
+        }
+
+        .how-it-works {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .how-it-works img {
+            max-width: 150px;
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        footer img {
+            max-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Company Logo">
+    </header>
+
+    <section class="hero-section">
+        <img src="hero-image.png" alt="Hero Image">
+    </section>
+
+    <section class="content-section">
+        <img src="content-image1.png" alt="Content Image 1">
+        <img src="content-image2.png" alt="Content Image 2">
+    </section>
+
+    <div class="how-it-works">
+        <img src="step1.png" alt="Step 1">
+        <img src="step2.png" alt="Step 2">
+        <img src="step3.png" alt="Step 3">
+    </div>
+
+    <footer>
+        <img src="footer-logo.png" alt="Footer Logo">
+    </footer>
+</body>
+</html> -->
+
+    

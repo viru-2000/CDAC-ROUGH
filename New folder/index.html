@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="service-details">
+    <!-- Service Information -->
+    <div class="service-info">
+      <img src="https://via.placeholder.com/600x400" alt="Service Image" class="service-image">
+      <h1>Service Name</h1>
+      <p class="description">This is a detailed description of the service. It provides all the necessary information about what the service offers.</p>
+      <p class="price"><strong>Price:</strong> $100</p>
+    </div>
+
+    <!-- Vendor Details -->
+    <div class="vendor-info">
+      <h3>Vendor: John Doe</h3>
+      <p><strong>Rating:</strong> 4.5/5</p>
+      <p><strong>Availability:</strong> 9:00 AM - 5:00 PM</p>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="booking-form">
+      <h3>Book This Service</h3>
+      <form>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Select Time:</label>
+        <input type="time" id="time" name="time" required>
+        <button type="submit" class="btn">Confirm Booking</button>
+      </form>
+    </div>
+
+    <!-- Reviews Section -->
+    <div class="reviews">
+      <h3>User Reviews</h3>
+      <div class="review">
+        <p><strong>Rating:</strong> 5/5</p>
+        <p>Excellent service! Highly recommend.</p>
+      </div>
+      <div class="review">
+        <p><strong>Rating:</strong> 4/5</p>
+        <p>Good service but could be more punctual.</p>
+      </div>
+
+      <!-- Add a Review -->
+      <div class="add-review">
+        <h4>Add Your Review</h4>
+        <form>
+          <label for="rating">Rating (1-5):</label>
+          <input type="number" id="rating" name="rating" min="1" max="5" required>
+          <label for="review-text">Your Review:</label>
+          <textarea id="review-text" name="review-text" rows="4" placeholder="Write your review" required></textarea>
+          <button type="submit" class="btn">Submit Review</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
